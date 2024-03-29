@@ -51,63 +51,36 @@
             width: 100%;
             height: 100%;
         }
-        .menu {
-            position: absolute;
-            top: 20px;
-            left: 20px;
-        }
-        .menu ul {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-        }
-        .menu ul li {
-            margin-bottom: 10px;
-        }
-        .menu ul li a {
-            text-decoration: none;
-            color: #333;
-            font-weight: bold;
-        }
-        .menu ul li a:hover {
-            color: #007bff;
-        }
-        .menu-toggle {
-            cursor: pointer;
-        }
-        .hidden {
-            display: none;
-        }
     </style>
 </head>
 <body>
     <header>
         <h1>Altın Oran: Matematiğin Estetik Yansıması</h1>
     </header>
-    <div class="menu">
-        <div class="menu-toggle" onclick="toggleMenu()">Kullanıldığı Alanlar ▼</div>
-        <ul class="hidden" id="alanlarListesi">
-            <li><a href="alanlar.html#sanat">Sanat</a></li>
-            <li><a href="alanlar.html#müzik">Müzik</a></li>
-            <li><a href="alanlar.html#doğa">Doğa</a></li>
-            <li><a href="alanlar.html#matematik">Matematik</a></li>
-            <li><a href="alanlar.html#grafikler">Bilgisayar Grafikleri</a></li>
-            <li><a href="alanlar.html#ekonomi">Ekonomi ve Finans</a></li>
-        </ul>
-    </div>
     <div class="container">
         <p>Altın oran, matematikte özellikle geometri ve sayı teorisi alanlarında önemli bir kavramdır. Yunanlılar tarafından keşfedilmiş ve tarih boyunca birçok sanat eserinde ve mimaride kullanılmıştır. Altın oranın temeli, bir nesnenin bölünebilir olması ve bu bölünmenin orantılı bir şekilde gerçekleşmesidir.</p>
         <p>Altın oran, genellikle "φ" (fi) sembolüyle ifade edilir ve yaklaşık olarak 1.618 sayısına eşittir. Bu sayı, bir nesnenin daha küçük bir parçasının, daha büyük bir parçaya oranı ile aynıdır ve altın oran denilen bu oran, matematiksel olarak mükemmel bir denge ve estetik sağlar.</p>
         <p>Altın oran, sadece sanatta ve mimaride değil, aynı zamanda doğada da sıklıkla görülür. Bitkilerin büyümesi, hayvanların anatomisi ve hatta insan vücudu bile altın oranın izlerini taşır. Bu, doğanın mükemmel bir düzeni olduğunu gösterir.</p>
         <p>Altın oranın ilginç bir özelliği, bu oranın Fibonacci dizisi ile ilişkilendirilebilmesidir. Fibonacci dizisi, bir sayının kendisinden önceki iki sayının toplamı şeklinde oluşturulan bir sayı dizisidir. Bu dizide ilerledikçe sayılar birbirleri ile orantılı hale gelir ve altın orana yaklaşırlar.</p>
-        <h2 id="videolar">Videolar</h2>
+        <h2>Videolar</h2>
         <div class="video-container">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/pDObVN720Zo" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class="video-container">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/OS7-PYR5L2o" frameborder="0" allowfullscreen></iframe>
         </div>
-        <h2 id="kaynaklar">Kaynakça</h2>
+        <h2>Kullanıldığı Alanlar</h2>
+        <p>Altın oran, birçok alanda kullanılmaktadır:</p>
+        <ul>
+            <li><strong>Sanat:</strong> Resim, heykel, mimari.</li>
+            <li><strong>Müzik:</strong> Bestelerde ritim ve armoni.</li>
+            <li><strong>Doğa:</strong> Bitki ve hayvan anatomisinde, deniz kabuklarında, dağların yapısında.</li>
+            <li><strong>Matematik:</strong> Geometri, sayı teorisi, analiz.</li>
+            <li><strong>Bilgisayar Grafikleri:</strong> Grafik tasarımında, web tasarımında.</li>
+            <li><strong>Ekonomi ve Finans:</strong> Piyasa analizi, finansal modeller.</li>
+        </ul>
+        <p>Ve daha birçok alanda... Altın oran, genellikle denge, uyum ve estetik açıdan önemli bir rol oynamaktadır.</p>
+        <h2>Kaynakça</h2>
         <ul>
             <li>Livio, M. (2002). The Golden Ratio: The Story of Phi, the World's Most Astonishing Number. Broadway Books.</li>
             <li>Huntley, H. E. (1970). The Divine Proportion: A Study in Mathematical Beauty. Dover Publications.</li>
@@ -115,14 +88,7 @@
         </ul>
     </div>
     <footer>
-        <p>© 2024 Altın Oran Araştırmaları</p>
+        <p>© Kayra Berk KORKMAZ </p>
     </footer>
-
-    <script>
-        function toggleMenu() {
-            var alanlarListesi = document.getElementById("alanlarListesi");
-            alanlarListesi.classList.toggle("hidden");
-        }
-    </script>
 </body>
 </html>
