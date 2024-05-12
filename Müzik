@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Müzik ve Altın Oran</title>
+    <style>
+        /* Stil kodları buraya eklenebilir */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f7fc; /* Arka plan rengi */
+        }
+        header {
+            background-color: #005a8d; /* Başlık arkaplan rengi */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: #333;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            color: #000;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+            line-height: 1.6;
+            background-color: #fff; /* İçerik arka plan rengi */
+            border-radius: 10px; /* Kenar yuvarlaklığı */
+            box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1); /* Gölge efekti */
+            padding: 20px;
+        }
+        .golden-ratio-text {
+            font-size: 16px;
+            text-align: justify;
+        }
+        footer {
+            background-color: #005a8d; /* Footer arkaplan rengi */
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="margin: 0;">Müzik ve Altın Oran</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Ana Sayfa</a></li>
+            <li><a href="müzik.html">Müzik</a></li>
+            <li><a href="doğa.html">Doğa</a></li>
+            <li><a href="matematik.html">Matematik</a></li>
+            <li><a href="grafikler.html">Bilgisayar Grafikleri</a></li>
+            <li><a href="ekonomi.html">Ekonomi ve Finans</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h2>Müzik ve Altın Oran</h2>
+        <div class="golden-section">
+            <div class="left-section">
+                <h3>Müzikte Altın Oranın Kullanımı</h3>
+                <p class="golden-ratio-text">Altın oran, müzikte kompozisyonun yapısal dengesini oluşturmak için kullanılan önemli bir araçtır. Müzikal formun belirlenmesi, bölümlerin uzunlukları, tekrarlanan motiflerin yerleşimi ve diğer yapısal unsurlar altın oranın etkisi altında olabilir.</p>
+                <p class="golden-ratio-text">Müzisyenler, altın oranı enstrümanların oranlarını belirlerken, akor dizilerini oluştururken ve melodik yapıları planlarken kullanabilirler. Altın oran, bir müzik parçasının dinleyici üzerindeki etkisini artırmak için de kullanılabilir.</p>
+                <p class="golden-ratio-text">Bazı besteciler, altın oranın matematiksel doğrultusunu takip ederek eserlerini düzenlerler. Bu, dinleyicilerin parçayı daha tutarlı ve akılda kalıcı bulmasına yardımcı olabilir.</p>
+            </div>
+            <div class="right-section">
+                <!-- Boş alan, isteğinize göre doldurulabilir -->
+                <img src="müzik.jpg" alt="Müzik ve Altın Oran" class="golden-ratio-img">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>© 2024 Altın Oran Araştırmaları</p>
+    </footer>
+</body>
+</html>
+
